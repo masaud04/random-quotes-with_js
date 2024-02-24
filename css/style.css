@@ -54,20 +54,24 @@ body{
     content: ", ";
     font-style: normal;
 }
+.period::before {
+    content: ", ";
+    font-style: none;
+}
 
 #loadQuote{
     font-size: 2.5rem;
     position: fixed;
-    width: 9em;
+    width: 7em;
     display: inline-block;
-    right: 29%;
+    right: 20%;
     margin-left: -6em;
     bottom: 5rem;
     border: 2px solid #fff;
     border-radius: 5.5px;
     color: #fff;
     background-color: rgba(85, 61, 61, 0.3);
-    padding: 15px 6px;
+    padding: 15px 0px;
     transition: .7s;
 }
 #loadQuote:hover{
